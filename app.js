@@ -22,3 +22,28 @@ app.use(bodyParser.json());
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+server.get('/', (req, res) => {
+    console.log("hello")
+    res.send(players)}
+    );
