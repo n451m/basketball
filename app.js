@@ -12,7 +12,11 @@ app.use(bodyParser.json());
 
 
 
-
+const players = [
+    { id: 1, name: 'Lebron James', age: 37, height:"6 ft 8", position:"SF", },
+    { id: 2, name: 'Steph Curry', age: 32, height:"6 ft 3",  position:"PG",},
+    { id: 3, name: 'Kevin Durant', age: 32, height:"6 ft 11", position:"SF", },
+];
 
 
 
